@@ -32,7 +32,7 @@
                             "protocol": "*",
                             "sourcePortRange": "*",
                             "destinationPortRange": "5432",
-                            "sourceAddressPrefix": "10.0.0.0",
+                            "sourceAddressPrefix": "10.1.0.0",
                             "destinationAddressPrefix": "*",
                             "access": "Allow",
                             "priority": 100,
@@ -165,7 +165,7 @@
                 "protocol": "*",
                 "sourcePortRange": "*",
                 "destinationPortRange": "5432",
-                "sourceAddressPrefix": "10.0.0.0",
+                "sourceAddressPrefix": "10.1.0.0",
                 "destinationAddressPrefix": "*",
                 "access": "Allow",
                 "priority": 100,
@@ -332,4 +332,3 @@
             }
         }
     ]
-}
